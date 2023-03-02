@@ -1,0 +1,290 @@
+@media (max-width: 900px) {
+    .nombre-port {
+        position: absolute;
+        top: 58%;
+        left: 25%;
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .nombre-port {
+        position: absolute;
+        top: 58%;
+        left: 20%;
+        display: block;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .nombre-main-1 {
+        display: none;
+    }
+    .nombre-main-mob {
+        display: inline-block;
+        width: 100%;
+        overflow: visible;
+        pointer-events: none;
+    }
+    .navhint {
+        display: none;
+    }
+    .fp-right {
+        right: 10px !important;
+    }
+    .navhint {
+        display: none;
+    }
+    .menu {
+        display: none;
+    }
+    .contactomobile {
+        display: inline-block;
+        position: absolute;
+        right: 50%;
+        bottom: 15%;
+        transform: translateX(50%);
+        background-color: rgba(69, 76, 128, .15);
+        border-radius: 5px;
+    }
+    .contactomobile h4 {
+        padding: .3em;
+        margin: 0;
+        text-transform: uppercase;
+        font-size: 1.3em;
+    }
+    .go-upp {
+        z-index: 99;
+        display: block;
+        position: absolute;
+        width: 30px;
+        bottom: 20px;
+        right: 20px;
+        opacity: .9;
+    }
+    .grid2 {
+        display: grid;
+        grid-template-columns: 6% 88% 7%;
+        grid-template-rows: 8.5vh auto auto auto auto auto 8.5vh;
+        background-color: white;
+    }
+    .grid2-1 {
+        grid-column: 2/3;
+        grid-row: 3/4;
+        margin: 0 auto;
+        width: 100%;
+        padding-bottom: 1.5em;
+        padding-top: 1.5em;
+    }
+    .desc2 {
+        grid-column: 2/3;
+        grid-row: 4/5;
+        text-align: justify;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .grid2-2 {
+        grid-column: 2/3;
+        grid-row: 5/6;
+        display: inline-block;
+        padding-left: 20%;
+    }
+    .grid3 {
+        display: grid;
+        grid-template-columns: 6% 87% 7%;
+        grid-template-rows: 8.5vh auto auto auto auto 8.5vh;
+        background-color: white;
+    }
+    .desc3 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .desc3-2 {
+        padding-top: 2em;
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    .grid4 {
+        display: grid;
+        grid-template-columns: 6% 87% 7%;
+        grid-template-rows: 8.5vh auto auto auto auto auto 8.5vh;
+        background-color: #d7d8db;
+    }
+    .grid4-1 {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    .grid4-1v2 {
+        display: grid;
+        grid-template-columns: 15% 70% 15%;
+        grid-template-rows: auto auto auto auto;
+    }
+    .imgprincipal {
+        grid-column: 1/4;
+        grid-row: 1/2;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+    }
+    .desc4-1 {
+        grid-column: 1/4;
+        grid-row: 2/3;
+        text-align: justify;
+    }
+    .imgsec {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    .grid4-2 {
+        grid-column: 2/3;
+        grid-row: 4/5;
+        display: grid;
+        grid-template-columns: 15% 70% 15%;
+        grid-template-rows: auto auto auto auto;
+    }
+    .desc4-2 {
+        padding-top: 2em;
+        grid-column: 1/4;
+        grid-row: 1/2;
+    }
+    .desc4-3 {
+        grid-column: 1/4;
+        grid-row: 2/3;
+    }
+    .imgter {
+        grid-column: 1/4;
+        grid-row: 3/4;
+    }
+    .grid5 {
+        display: grid;
+        grid-template-columns: 6% 87% 7%;
+        grid-template-rows: 8.5vh auto auto auto auto auto 8.5vh;
+        background-color: #d7d8db;
+    }
+    .image1 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        padding-left: 6%;
+    }
+    .image2 {
+        grid-column: 2/3;
+        grid-row: 3/4;
+        padding-left: 6%;
+        padding-top: 2em;
+    }
+    .image3 {
+        grid-column: 2/3;
+        grid-row: 4/5;
+        padding-left: 6%;
+        padding-top: 2em;
+    }
+    .grid6 {
+        display: grid;
+        grid-template-columns: 6% 87% 7%;
+        grid-template-rows: 8.5vh auto auto auto auto auto auto 8.5vh;
+    }
+    .grid6-2 {
+        margin-top: 1em;
+        margin-left: 20%;
+        grid-column: 2/3;
+        grid-row: 4/5;
+        text-align: right;
+    }
+    .grid6-3 {
+        margin-top: 0em;
+        grid-column: 2/3;
+        grid-row: 5/6;
+    }
+    .grid6-5 {
+        grid-column: 2/3;
+        grid-row: 6/7;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    .grid6-5 .pc-grid6-4 {
+        display: none;
+    }
+    .mobile-grid6-4 {
+        display: block;
+        padding-top: 2em;
+    }
+    .grid7 {
+        display: grid;
+        grid-template-columns: 6% 87% 7%;
+        grid-template-rows: 8.5vh auto auto auto auto auto auto 8.5vh;
+    }
+    .grid7-3 {
+        padding-top: 2em;
+        grid-column: 2/3;
+        grid-row: 5/6;
+    }
+    .grid8 {
+        display: grid;
+        grid-template-columns: 6% 43.5% 43.5% 7%;
+        grid-template-rows: 8.5vh auto auto auto auto auto auto 8.5vh;
+    }
+    .nombre8 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        padding-left: 0.5em;
+        padding-bottom: 0.5em;
+    }
+    .grid8 img {
+        padding: 0.5em;
+    }
+    .grid8-1 {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    .grid8-2 {
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+    .grid8-3 {
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+    .grid8-4 {
+        grid-column: 3/4;
+        grid-row: 4/5;
+    }
+    .grid8-5 {
+        grid-column: 2/4;
+        grid-row: 5/6;
+    }
+    .grid9 {
+        display: grid;
+        grid-template-columns: 6% 43.5% 43.5% 7%;
+        grid-template-rows: 8.5vh auto auto auto auto auto auto 8.5vh;
+    }
+    .nombre9 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        padding-left: 0.5em;
+        padding-bottom: 0.5em;
+    }
+    .grid9 img {
+        padding: 0.5em;
+    }
+    .grid9-1 {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    .grid9-2 {
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+    .grid9-3 {
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+    .grid9-4 {
+        grid-column: 3/4;
+        grid-row: 4/5;
+    }
+    .callmail {
+        grid-column: 1/4;
+        grid-row: 3/4;
+    }
+}
